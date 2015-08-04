@@ -1,9 +1,9 @@
 {
   "name": "frontend-devil",
   "version": "1.0.0",
-  "homepage": "https://github.com/Insayt/frontend-devil",
+  "homepage": "https://github.com/ifeatit/frontend-devil",
   "authors": [
-    "Alex Insayt <insait.rostov@ya.ru>"
+    "Yury Zaytsev <more.jorand@gmail.com>"
   ],
   "description": "Devil boilerplate for html+js+css apps",
   "moduleType": [
