@@ -7,7 +7,7 @@ var gulp = require('gulp'),
   sass = require('gulp-sass'),
   sourcemaps = require('gulp-sourcemaps'),
   rigger = require('gulp-rigger'),
-  cssmin = require('gulp-minify-css'),
+  cssmin = require('gulp-cssnano'),
   imagemin = require('gulp-imagemin'),
   pngquant = require('imagemin-pngquant'),
   rimraf = require('rimraf'),
@@ -49,7 +49,7 @@ var config = {
   tunnel: true,
   host: 'localhost',
   port: 9000,
-  logPrefix: "Frontend_Devil"
+  logPrefix: "Sedona"
 };
 
 gulp.task('webserver', function () {
